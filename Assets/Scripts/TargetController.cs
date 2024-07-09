@@ -27,7 +27,7 @@ public class TargetBlockController : MonoBehaviour
     /// Collider に衝突判定があった時に呼ばれる
     /// </summary>
     /// <param name="collision">衝突の情報</param>
-    void OnCollisionEnter2D(Collision2D collision)
+    /*void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("Enter OnCollisionEnter2D."); // 関数が呼び出されたら Console にログを出力する
 
@@ -42,13 +42,13 @@ public class TargetBlockController : MonoBehaviour
             }
             Destroy(this.gameObject);
         }
-    }
+    }*/
 
     /// <summary>
     /// Collider に接触判定（トリガーモード時）があった時に呼ばれる
     /// </summary>
     /// <param name="collision">衝突の情報</param>
-    void OnTriggerEnter2D(Collider2D collision)
+    /*void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("Enter OnTriggerEnter2D."); // 関数が呼び出されたら Console にログを出力する
 
@@ -63,5 +63,5 @@ public class TargetBlockController : MonoBehaviour
             }
             Destroy(this.gameObject);
         }
-    }
+    }*/
 }

@@ -9,6 +9,6 @@ public class DisplayScore : MonoBehaviour
     {
         // スコアを画面に表示する
         Text scoreText = m_scoreText.GetComponent<Text>();
-        scoreText.text = "Score: " + ScoreManager.m_score.ToString();
+        scoreText.text = "Score: " + GameManagerSecondTermFifthWeek._score.ToString();
     }
 }

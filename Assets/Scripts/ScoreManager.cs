@@ -12,11 +12,11 @@ public class ScoreManager : MonoBehaviour
     /// <summary>
     /// スコアを加算する。public として関数を作ることにより、外部から呼び出せるようになる。
     /// </summary>
-    public static void AddScore(int score)
+    /*public static void AddScore(int score)
     {
         m_score += score;   // m_score = m_score + score の短縮形
         Debug.LogFormat("Score: {0}", m_score);
-    }
+    }*/
 
     /// <summary>
     /// private（public とつけていない）関数は、外部からは呼び出せない。
