@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3523607600104685030}
   - component: {fileID: 7552859654046539482}
   - component: {fileID: 3442167145053349076}
+  - component: {fileID: 1455040162722207292}
   m_Layer: 0
   m_Name: cat
   m_TagString: Animal
@@ -177,3 +178,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_effectPrefab: {fileID: 9082890513625945424, guid: ec9571ed7ab37b9419ee96bb0abebd63, type: 3}
+--- !u!114 &1455040162722207292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896427568705145826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7500aa80819800a45ad2b57ebb9033d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
